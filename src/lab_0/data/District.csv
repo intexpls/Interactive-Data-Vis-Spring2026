@@ -1,0 +1,34 @@
+District_code,Borough_name,Neighborhoods,District_attd
+01,Manhattan,"Lower East Side, East Village",88.6%
+10,The Bronx,"Fordham, Riverdale, Kingsbridge",90.4%
+11,The Bronx,"Wakefield, Allerton, Pelham Parkway",90.7%
+12,The Bronx,"Tremont, Belmont, Crotona Park",87.9%
+13,Brooklyn,"Brooklyn Heights, Fort Greene, Clinton Hill",87.4%
+14,Brooklyn,"Williamsburg, Greenpoint",89.6%
+15,Brooklyn,"Boerum Hill, Red Hook, Park Slope",91.0%
+16,Brooklyn,Bedford-Stuyvesant,86.5%
+17,Brooklyn,"Crown Heights, Prospect Lefferts Gardens",89.3%
+18,Brooklyn,"East Flatbush, Canarsie",87.8%
+19,Brooklyn,East New York,88.4%
+02,Manhattan,"Lower Manhattan, Soho, Greenwich Village, Chelsea, Gramercy, Upper East Side",89.9%
+20,Brooklyn,"Bay Ridge, Borough Park, Fort Hamilton",95.2%
+21,Brooklyn,"Coney Island, Brighton Beach, Gravesend",90.2%
+22,Brooklyn,"Sheepshead Bay, Midwood, Marine Park",92.6%
+23,Brooklyn,Brownsville,86.2%
+24,Queens,"Ridgewood, Glendale, Elmhurst, Corona",93.2%
+25,Queens,"Flushing, Whitestone, Queensboro Hill",92.8%
+26,Queens,"Bayside, Douglaston, Little Neck",94.9%
+27,Queens,"Rockaways, Howard Beach, Ozone Park",90.8%
+28,Queens,"Forest Hills, Rego Park, Jamaica",92.0%
+29,Queens,"Hollis, Queens Village, Laurelton",91.2%
+03,Manhattan,"Greenwich Village, Upper West Side, Harlem",90.6%
+30,Queens,"Astoria, Long Island City, Jackson Heights",93.5%
+31,Staten Island,All of Staten Island,92.3%
+32,Brooklyn,Bushwick,89.8%
+04,Manhattan,East Harlem,90.3%
+05,Manhattan,"Central Harlem, Manhattanville",87.8%
+06,Manhattan,"Hamilton Heights, Washington Heights, Inwood",91.7%
+07,The Bronx,"Mott Haven, Port Morris, Melrose",86.3%
+75,Special Districts,Citywide organization providing special education services.,84.6%
+08,The Bronx,"East Bronx, Pelham Bay, Throggs Neck",87.4%
+09,The Bronx,"Morrisania, Highbridge, Concourse",89.0%
