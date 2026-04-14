@@ -1,24 +1,28 @@
 ---
 title: "Lab 1: Passing Pollinators"
-toc: true
+toc: false
 theme: [parchment]
 ---
 
 This page is where you can iterate. Follow the lab instructions in the [readme.md](./README).
 
+First, let's pull the data.
 
 ```js
 const bees = FileAttachment("./data/pollinator_activity_data.csv").csv({typed: true})
 ```
 
 
-#### ❓Q1 What is the body mass and wing span distribution of each pollinator species observed?
-## Bigger bees can spread their wings wider compared to smaller ones
-
-Practically all Carpenter bees (except for one skinny legend) weight more and have wider wings span compared to Bumble bees are Honey Bees.
 
 
-```js echo
+
+<div class="card" style="max-width: 95%;">
+<h4>❓ What is the body mass and wing span distribution of each pollinator species observed?</h2>
+<h2>Bigger bees can spread their wings wider compared to smaller ones</h2>
+
+<p>Practically all Carpenter bees (except for one skinny legend) weight more and have wider wings span compared to Bumble bees are Honey Bees.</p>p>
+
+${
 Plot.plot({
   color: {legend: true},
   x: {label: "Average mass, g"},
@@ -27,10 +31,10 @@ Plot.plot({
     Plot.dot(bees, {x: "avg_body_mass_g", y: "avg_wing_span_mm", stroke: "pollinator_species"})
   ]
 })
-```
+}
+</div>
 
-
-#### ❓Q2 What is the ideal weather (conditions, temperature, etc) for pollinating?
+#### ❓ What is the ideal weather (conditions, temperature, etc) for pollinating?
 ## Bees prefer cooler temperature and less sun but ultimately they are not that picky
 
 ```js echo
@@ -48,8 +52,10 @@ Plot.plot({
 
 
 
-#### ❓Q3 Which flower has the most nectar production?
+#### ❓ Which flower has the most nectar production?
 ## Sunflowers produced the most nectar
+
+Sunflowers outpaced other flower species in how much nectar they produced followed by [add].
 
 ```js echo
 Plot.plot({
