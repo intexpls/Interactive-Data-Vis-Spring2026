@@ -1,0 +1,56 @@
+date,event_name,station,station_event_count,station_event,staff_now,expected_25,expected_50,expected_100,avg_no_event,attd,staff_now_group,change_25,change_50,change_100
+2026-06-27,Gallery Opening,West 4 St-Wash Sq,1,West 4 St-Wash Sq  |  Gallery Opening,4,7650,9709,13828,5590,8238,0-4,0.37,0.74,1.47
+2026-06-06,Art Exhibition Opening,Wall St,1,Wall St  |  Art Exhibition Opening,9,9935,10727,12310,9143,3167,5-10,0.09,0.17,0.35
+2026-06-04,Book Fair,Times Sq-42 St,1,Times Sq-42 St  |  Book Fair,19,18103,20111,24129,16094,8035,11+,0.12,0.25,0.50
+2026-07-12,Fireworks Display,Times Sq-42 St,2,Times Sq-42 St  |  Fireworks Display,19,18575,21057,26020,16094,9926,11+,0.15,0.31,0.62
+2026-07-20,Farmers Market,Times Sq-42 St,3,Times Sq-42 St  |  Farmers Market,19,19193,22292,28491,16094,12397,11+,0.19,0.39,0.77
+2026-07-01,Jazz Festival,Spring St,1,Spring St  |  Jazz Festival,12,12902,14869,18801,10936,7865,11+,0.18,0.36,0.72
+2026-07-06,Book Fair,Spring St,2,Spring St  |  Book Fair,12,13671,16407,21877,10936,10941,11+,0.25,0.50,1.00
+2026-07-19,Summer Concert Series,Houston St,1,Houston St  |  Summer Concert Series,18,17922,18665,20150,17179,2971,11+,0.04,0.09,0.17
+2026-06-12,Theater Performance,Herald Sq-34 St,1,Herald Sq-34 St  |  Theater Performance,15,16212,18540,23196,13884,9312,11+,0.17,0.34,0.67
+2026-07-14,Rooftop Party,Herald Sq-34 St,2,Herald Sq-34 St  |  Rooftop Party,15,14680,15476,17068,13884,3184,11+,0.06,0.11,0.23
+2026-07-23,Fireworks Display,Grand Central-42 St,1,Grand Central-42 St  |  Fireworks Display,18,18232,20078,23769,16387,7382,11+,0.11,0.23,0.45
+2026-08-11,Dance Performance,Grand Central-42 St,2,Grand Central-42 St  |  Dance Performance,18,18184,19982,23578,16387,7191,11+,0.11,0.22,0.44
+2026-06-02,Comedy Show,Fulton St,1,Fulton St  |  Comedy Show,17,17345,18427,20591,16263,4328,11+,0.07,0.13,0.27
+2026-06-16,Art Exhibition Opening,Fulton St,2,Fulton St  |  Art Exhibition Opening,17,18390,20518,24774,16263,8511,11+,0.13,0.26,0.52
+2026-07-13,Farmers Market,Fulton St,3,Fulton St  |  Farmers Market,17,16819,17375,18488,16263,2225,11+,0.03,0.07,0.14
+2026-07-17,Museum Night,Fulton St,4,Fulton St  |  Museum Night,17,19422,22581,28900,16263,12637,11+,0.19,0.39,0.78
+2026-07-27,Block Party,Christopher St,1,Christopher St  |  Block Party,15,14731,15693,17618,13768,3850,11+,0.07,0.14,0.28
+2026-08-02,Block Party,Christopher St,2,Christopher St  |  Block Party,15,17414,21060,28351,13768,14583,11+,0.26,0.53,1.06
+2026-06-07,Gallery Opening,Chambers St,1,Chambers St  |  Gallery Opening,18,17406,18486,20647,16326,4321,11+,0.07,0.13,0.26
+2026-06-09,Dance Performance,Chambers St,2,Chambers St  |  Dance Performance,18,17731,19136,21947,16326,5621,11+,0.09,0.17,0.34
+2026-06-22,Fashion Show,Chambers St,3,Chambers St  |  Fashion Show,18,18250,20175,24025,16326,7699,11+,0.12,0.24,0.47
+2026-07-05,Music Festival,Chambers St,4,Chambers St  |  Music Festival,18,18101,19876,23426,16326,7100,11+,0.11,0.22,0.43
+2026-07-05,Book Fair,Chambers St,5,Chambers St  |  Book Fair,18,19007,21688,27051,16326,10725,11+,0.16,0.33,0.66
+2026-07-21,Pride Parade,Chambers St,6,Chambers St  |  Pride Parade,18,19857,23389,30453,16326,14127,11+,0.22,0.43,0.87
+2026-06-16,Craft Fair,Canal St,1,Canal St  |  Craft Fair,4,7931,10057,14308,5805,8503,0-4,0.37,0.73,1.46
+2026-06-18,Book Fair,Canal St,2,Canal St  |  Book Fair,4,8834,11862,17919,5805,12114,0-4,0.52,1.04,2.09
+2026-06-25,Cultural Festival,Canal St,3,Canal St  |  Cultural Festival,4,6864,7923,10040,5805,4235,0-4,0.18,0.36,0.73
+2026-06-25,Theater Performance,Canal St,4,Canal St  |  Theater Performance,4,7483,9160,12515,5805,6710,0-4,0.29,0.58,1.16
+2026-07-01,Beer Garden Opening,Canal St,5,Canal St  |  Beer Garden Opening,4,8283,10762,15718,5805,9913,0-4,0.43,0.85,1.71
+2026-07-05,Dance Performance,Canal St,6,Canal St  |  Dance Performance,4,7878,9951,14096,5805,8291,0-4,0.36,0.71,1.43
+2026-07-13,Outdoor Yoga,Canal St,7,Canal St  |  Outdoor Yoga,4,9008,12210,18615,5805,12810,0-4,0.55,1.10,2.21
+2026-08-02,Outdoor Yoga,Canal St,8,Canal St  |  Outdoor Yoga,4,7709,9614,13422,5805,7617,0-4,0.33,0.66,1.31
+2026-06-03,Cultural Festival,Astor Pl,1,Astor Pl  |  Cultural Festival,7,8015,8446,9309,7583,1726,5-10,0.06,0.11,0.23
+2026-07-14,Beer Garden Opening,96 St,1,96 St  |  Beer Garden Opening,19,19010,21002,24985,17019,7966,11+,0.12,0.23,0.47
+2026-06-21,Cultural Festival,66 St-Lincoln Center,1,66 St-Lincoln Center  |  Cultural Festival,15,16280,18837,23950,13724,10226,11+,0.19,0.37,0.75
+2026-06-27,Outdoor Yoga,66 St-Lincoln Center,2,66 St-Lincoln Center  |  Outdoor Yoga,15,14930,16137,18550,13724,4826,11+,0.09,0.18,0.35
+2026-06-11,Summer Concert Series,59 St-Columbus Circle,1,59 St-Columbus Circle  |  Summer Concert Series,6,8173,9412,11891,6934,4957,5-10,0.18,0.36,0.71
+2026-07-07,Craft Fair,50 St,1,50 St  |  Craft Fair,20,18666,19370,20777,17963,2814,11+,0.04,0.08,0.16
+2026-07-09,Book Fair,42 St-Port Authority,1,42 St-Port Authority  |  Book Fair,14,14161,16079,19914,12243,7671,11+,0.16,0.31,0.63
+2026-08-08,Summer Concert Series,42 St-Port Authority,2,42 St-Port Authority  |  Summer Concert Series,14,14053,15863,19483,12243,7240,11+,0.15,0.30,0.59
+2026-08-11,Fireworks Display,42 St-Port Authority,3,42 St-Port Authority  |  Fireworks Display,14,15522,18800,25357,12243,13114,11+,0.27,0.54,1.07
+2026-06-05,Pride Parade,34 St-Penn Station,1,34 St-Penn Station  |  Pride Parade,15,16606,19389,24956,13822,11134,11+,0.20,0.40,0.81
+2026-06-09,Pride Parade,34 St-Penn Station,2,34 St-Penn Station  |  Pride Parade,15,15562,17302,20781,13822,6959,11+,0.13,0.25,0.50
+2026-07-09,Fireworks Display,34 St-Penn Station,3,34 St-Penn Station  |  Fireworks Display,15,15885,17947,22071,13822,8249,11+,0.15,0.30,0.60
+2026-07-23,Book Fair,34 St-Penn Station,4,34 St-Penn Station  |  Book Fair,15,16261,18699,23575,13822,9753,11+,0.18,0.35,0.71
+2026-08-09,Summer Concert Series,34 St-Penn Station,5,34 St-Penn Station  |  Summer Concert Series,15,15374,16925,20028,13822,6206,11+,0.11,0.22,0.45
+2026-08-10,Rooftop Party,34 St-Penn Station,6,34 St-Penn Station  |  Rooftop Party,15,15047,16271,18720,13822,4898,11+,0.09,0.18,0.35
+2026-08-10,Block Party,34 St-Penn Station,7,34 St-Penn Station  |  Block Party,15,15161,16499,19175,13822,5353,11+,0.10,0.19,0.39
+2026-08-11,Rooftop Party,34 St-Penn Station,8,34 St-Penn Station  |  Rooftop Party,15,15529,17235,20648,13822,6826,11+,0.12,0.25,0.49
+2026-06-11,Fireworks Display,28 St,1,28 St  |  Fireworks Display,13,14427,16548,20790,12306,8484,11+,0.17,0.34,0.69
+2026-06-20,Book Fair,28 St,2,28 St  |  Book Fair,13,15453,18599,24892,12306,12586,11+,0.26,0.51,1.02
+2026-06-01,Craft Fair,23 St,1,23 St  |  Craft Fair,8,9686,11077,13859,8296,5563,5-10,0.17,0.34,0.67
+2026-07-18,Food Festival,23 St,2,23 St  |  Food Festival,8,10812,13329,18362,8296,10066,5-10,0.30,0.61,1.21
+2026-07-27,Dance Performance,23 St,3,23 St  |  Dance Performance,8,10613,12930,17564,8296,9268,5-10,0.28,0.56,1.12
+2026-08-14,Food Festival,125 St,1,125 St  |  Food Festival,7,8619,9224,10434,8014,2420,5-10,0.08,0.15,0.30
