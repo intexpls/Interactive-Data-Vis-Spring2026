@@ -33,13 +33,21 @@ const selectedDistrict = daily.filter(d => d.DBN === selectedDBN)[0]['District']
 const selectedDistrictAttd = district.filter(d => d.District_code === selectedDistrict)[0]['District_attd']
 ```
 
+# Lab 0. Setting Everything Up & Playing around with Observable Plot
+<br>
+
+## NYC Public School Attendance in the 2018-19 school year
+Chronical absenteeism means missing more that 10% of school which is nearly 18 school days. For a while tt has been a huge problem that affects how well students do in school and beyond. The 2020 pandemic made things worse for schools across the country which prompter local Departments of Education to pay closer attention. Part of the solution, is keeping track of attendance and implementing timely interventions. 
+
+Below is a version of a simple tracker that could help a school, district or borough leadership team track attendance at their school and notice when thing go awry.
+
 <div class="card" style="padding: 35px 40px">
   <div>
     <div id='schoolSelector'>
       ${dbnInput}
     </div>
     <div id='naming' style="width: 100%;">
-      <span style="display: flex; margin-top: 1.2rem; margin-bottom: -0.1rem; font-size: 20pt; font-weight: 900;">How was daily attendance at ${selectedDBNname} in 2018-19?</span>
+      <span style="display: flex; margin-top: 1.2rem; margin-bottom: -0.1rem; font-size: 18pt; font-weight: 900;">How was daily attendance at ${selectedDBNname} in 2018-19?</span>
       <div id='summary-scores' style="margin: 20px 0 0 0; font-size: 16pt; align: left; color: #646464; display: flex; flex-direction: row;">
         <div style='margin-right:6%;'>
           <span style='font-weight: 700'>${selectedDBNattd}</span>
@@ -101,8 +109,10 @@ Plot.plot({
 <details>
   <summary>What do color bands mean?</summary>
     <figure>
-      <img src="./assets/atts_levels_chart.jpg">
-      <figcaption>Source: <a href='https://www.ddouglas.k12.or.us/departments/student-services/attendance/what-is-regular-attendance/'>Davis Douglas School District</a></figcaption>
+    Chronic absenteeism is defined as missing more that 10% of school. However, this is not the only benchmark schools track.
+    
+  <img src="./assets/atts_levels_chart.jpg">
+  <figcaption>Source: <a href='https://www.ddouglas.k12.or.us/departments/student-services/attendance/what-is-regular-attendance/'>Davis Douglas School District</a></figcaption>
     </figure>
 </details>
 
@@ -110,8 +120,12 @@ Plot.plot({
 
 ## Dig deeper into the data
 
+Below you can explore all available data to uncover:
+* attendance at specific points of time for a particular school (DBN)
+* attendance in all schools in a specific distict or borough
+
 ```js
-const DBNsearch = view(Inputs.search(daily, {placeholder: "Search school DBNs"}));
+const DBNsearch = view(Inputs.search(daily, {placeholder: "Search by DBN, Borough, District or date"}));
 ```
 
 ```js
