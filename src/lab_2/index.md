@@ -103,7 +103,7 @@ Below is a chart showing daily traffic across all 25 stations in the summer 2025
     Plot.plot({
       height: 580,
       width,
-      marginLeft: 130,
+      marginLeft: 150,
       x: {
         axis: null     
       },
@@ -122,14 +122,14 @@ Below is a chart showing daily traffic across all 25 stations in the summer 2025
         y: "station"
       },
       style: {
-        fontSize: "9pt",
+        fontSize: "10pt",
       },
       marks: [
         Plot.axisX({
-            fontSize: 9,
+            fontSize: 11,
             color: "#A9A9A9",
             anchor: "bottom",
-            tickPadding: 5,
+            tickPadding: 3,
             ticks: 15
           }),
         d3.groups(ridership, d => d.station).map(([, values]) => [
@@ -155,7 +155,10 @@ Below is a chart showing daily traffic across all 25 stations in the summer 2025
         Plot.tip(ridership, Plot.pointer({
           x: "date",
           y: "entrances",
-          fy: "station"        }))
+          fy: "station",
+          title: (d) => `Ⓜ️ ${d.station}\n\n` + d.date.toISOString() + `\n\nDaily entrances - ${d.entrances}`,
+
+        }))
       ]
     })
 ```
@@ -173,7 +176,7 @@ Below are the local events - red bars - that took place during summer 2025, mapp
     Plot.plot({
       height: 580,
       width,
-      marginLeft: 130,
+      marginLeft: 150,
       x: {
         axis: null     
       },
@@ -193,14 +196,14 @@ Below are the local events - red bars - that took place during summer 2025, mapp
         y: "station"
       },
       style: {
-        fontSize: "9pt",
+        fontSize: "10pt",
       },
       marks: [
         Plot.axisX({
-            fontSize: 9,
+            fontSize: 11,
             color: "#A9A9A9",
             anchor: "bottom",
-            tickPadding: 5,
+            tickPadding: 3,
             ticks: 10
           }),
         Plot.ruleX(local_events, {
@@ -259,7 +262,7 @@ Below are the local events - red bars - that took place during summer 2025, mapp
           x: "date",
           y: "day_entry",
           fy: "nearby_station",
-          title: (d) => `Ⓜ️ ${d.nearby_station}\n\n${d.event_name}  |  ` + d.date.toISOString() + `\n\nEvent attendance - ${d.estimated_attendance}`,
+          title: (d) => `Ⓜ️ ${d.nearby_station}\n\n${d.event_name}  |  ` + d.date.toISOString() + `\n\nEvent attendance - ${d.estimated_attendance}`
         }))
       ]
     })
@@ -270,26 +273,35 @@ This definitely explained most traffic spikes. Another thing to note is that tra
 It's hard to say just be looking at this chart so let's have a more precise look. Below are all events and how much different that day traffic a particular station got, compared to their average daily traffic. To make this comparison more representation of a regular day, I calculated station average based on daily entrances, except for the days of events since they are, as we established, at more likely affected traffic.
 
 <!-- Chart 2 - Events traffic change, lollipop -->
+
+```js
+// Assuming data has 'id' and 'name' columns
+const eventsMap = new Map(traffic_events_change.map(d => [d.event_st, d.station]));
+```
+
 ```js
 Plot.plot({
   x: {
-    ticks: 4,
+    ticks: 5,
     percent: true,
     domain: [0, 133],
-    axis: "top", 
+    tickPadding: 5,
+    axis: "top",
+    label: "Traffic change from average", 
+    labelOffset: 45,
     grid: true,
-    color: "#A9A9A9"
+    color: "#A9A9A9",
+    fontSize: 10
   },
   y: {
     label: null,
-    tickPadding: 7, 
-    tickSize: 0
+    tickPadding: 15, 
   },
-  marginLeft: 430,
-  height: 1400,
-  width: 900,
+  marginLeft: 450,
+  marginTop: 50,
+  height: 1500,
+  width: 1000,
   fy: {
-    paddingInner: 10,
     label: null
   },
   style: {
@@ -298,20 +310,34 @@ Plot.plot({
   },
   marks: [
     Plot.axisY({
-      fontSize: "11pt",
+      fontSize: 14,
       tickPadding: 8,
       tickSize: 0
     }),
-    Plot.ruleY(
-      traffic_events_change, {
+    Plot.ruleY(traffic_events_change, {
         y: "event_st", 
-        x: "change", 
+        x: "traffic_change", 
         stroke: "#0000FF", 
-        opacity: 0.75,
-        sort: "change", 
-        strokeWidth: 3}),
-    Plot.dot(traffic_events_change, {y: "event_st", x: "change", fill: "#0000FF", r: 3}),
-    Plot.text(traffic_events_change, {y: "event_st", x: "change", text: (d) => (d.change * 100).toFixed(0) + "%", dx: 20})
+        opacity: 0.5,
+        sort: {y: "x", reverse: true}, 
+        strokeWidth: 4
+      }),
+    Plot.dot(traffic_events_change, {
+        y: "event_st", 
+        x: "traffic_change", 
+        fill: "#0000FF", 
+         r: 3}),
+    Plot.text(traffic_events_change, {
+        y: "event_st", 
+        x: "traffic_change", 
+        text: (d) => (d.traffic_change * 100).toFixed(0) + "%", 
+        dx: 25
+      }),
+    Plot.tip(traffic_events_change, Plot.pointer({
+        y: "event_st", 
+        x: "traffic_change", 
+        title: (d) => `Average station traffic - ${d.avg_traffic}\n\nEvent attendance - ${d.event_attd}\n\nTraffic on that day - ${d.day_traffic}`
+      }))
   ]
 })
 ```
@@ -613,23 +639,37 @@ As we established, events increase traffifc at nearby stations. We, however, can
 
 Below is the list of all stations with events scheduled for summer of 2026, grouped by the current staffing. Events are grouped by their nearby station and show what daily traffic that day could be, if 25% of an event attendance uses the subway. Hover over ends of each arrow to see details about an event.
 
-<div style="margin-top: -20px;">
-  <p style="font-size: 12pt; font-weight: 700; color: gray; margin-bottom: -15px;">0-4 staff members currently</p>
+<div style="margin-top: 10px;">
+  <p style="font-size: 12pt; font-weight: 700; color: #A0A0A0; margin-bottom: -15px;">0-4 staff members currently</p>
   <!-- Chart 5.1 - Future events (0-4 staff), arrow chart (idk) -->
 
   ```js
   Plot.plot({
     width: 1220,
-    height: 83,
-    marginLeft: 120,
-    x: {axis: 'top',  grid: true, domain: [5000, 20000], ticks: 4},
+    height: 85,
+    marginLeft: 155,
+    x: {
+      grid: true,
+      domain: [5000, 20000], 
+      ticks: 4,
+    },
     y: {label: null, grid: true},
     color: {scheme: 'blues'},
     style: {
-      fontSize: "11pt",
       overflow: "visible"
     },
     marks: [
+      Plot.axisX({
+        fontSize: 13,
+        tickPadding: 5,
+        color: "#909090",
+        anchor: 'top',
+        ticks: 4
+      }),
+      Plot.axisY({
+        fontSize: 14,
+        color: "#505050"
+      }),
       Plot.arrow(scatter_data.filter((d) => d.staff_now_group == '0-4'),
       {
         x1: "avg_no_event",
@@ -638,7 +678,8 @@ Below is the list of all stations with events scheduled for summer of 2026, grou
         bend: 30,
         headLength: 5,
         strokeWidth: 1.5,
-        opacity: 0.7,
+        sort: {y: "x1", reverse: true},
+        opacity: 0.85,
         stroke: (d) => d.expected_25 - d.avg_no_event,
         stroke: 'change_25'
       }),
@@ -651,35 +692,38 @@ Below is the list of all stations with events scheduled for summer of 2026, grou
   })
   ```
 </div>
-<div style="margin-top: -20px;">
-  <p style="font-size: 12pt; font-weight: 700; color: gray; margin-bottom: -25px;">5-10 staff members</p>
+<div style="margin-top: -5px;">
+  <p style="font-size: 12pt; font-weight: 700; color: #A0A0A0; margin-bottom: -25px;">5-10 staff members</p>
   <!-- Chart 5.2 - Future events (5-10 staff), arrow chart (idk) -->
 
   ```js
   Plot.plot({
     width: 1200,
-    height: 120,
-    marginLeft: 120,
+    height: 125,
+    marginLeft: 155,
     x: {axis: null,  grid: true, domain: [5000, 20000], ticks: 4},
-    y: {label: null, grid: true},
+    y: {label: null, grid: true, color: "gray"
+},
     color: {scheme: 'blues'},
     style: {
-      fontSize: "10pt",
-      overflow: "visible"
+      fontSize: "10.5pt",
+      overflow: "visible",
     },
     marks: [
       Plot.axisY({
-        fontSize: "1rem"
+        fontSize: 14,
+        color: "#505050"
       }),
       Plot.arrow(scatter_data.filter((d) => d.staff_now_group == '5-10'),
       {
         x1: "avg_no_event",
         x2: "expected_25",
         y: "station",
+        sort: {y: "x1", reverse: true},
         bend: 30,
         headLength: 5,
         strokeWidth: 2,
-        opacity: 0.7,
+        opacity: 0.85,
         stroke: (d) => d.expected_25 - d.avg_no_event,
         stroke: 'change_25'
       }),
@@ -692,33 +736,38 @@ Below is the list of all stations with events scheduled for summer of 2026, grou
   })
   ```
 </div>
-<div style="margin-top: -20px;">
-  <p style="font-size: 12pt; font-weight: 700; color: gray; margin-bottom: -25px;">11+ staff members</p>
+<div style="margin-top: -5px;">
+  <p style="font-size: 12pt; font-weight: 700; color: #A0A0A0; margin-bottom: -25px;">11+ staff members</p>
 
   <!-- Chart 5.3 - Future events (11+ staff), arrow chart (idk) -->
 
   ```js
   Plot.plot({
     width: 1200,
-    height: 280,
-    marginLeft: 120,
+    height: 295,
+    marginLeft: 155,
     x: {axis: null,  grid: true, domain: [5000, 20000], ticks: 4},
     y: {label: null, grid: true},
     color: {scheme: 'blues'},
     style: {
-      fontSize: "11pt",
+      fontSize: "10.5pt",
       overflow: "visible"
     },
     marks: [
+      Plot.axisY({
+        fontSize: 14,
+        color: "#505050"
+      }),
       Plot.arrow(scatter_data.filter((d) => d.staff_now_group == '11+'),
       {
         x1: "avg_no_event",
         x2: "expected_25",
         y: "station",
+        sort: {y: "x1", reserve: true},
         bend: 30,
         headLength: 5,
         strokeWidth: 2,
-        opacity: 0.7,
+        opacity: 0.85,
         stroke: (d) => d.expected_25 - d.avg_no_event,
         stroke: 'change_25'
       }),

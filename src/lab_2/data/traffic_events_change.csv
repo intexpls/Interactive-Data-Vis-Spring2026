@@ -1,61 +1,60 @@
-event_st,change
-"125 St  |  🌾 Farmers Market (7/5, Sat)",0.89
-"125 St  |  🍺 Beer Garden Opening (6/15, Sun)",0.15
-"125 St  |  🍿 Outdoor Movie Screening (7/31, Thu)",0.27
- , 
-"14 St-Union Sq  |  🎆 Fireworks Display (7/23, Wed)",0.39
-"14 St-Union Sq  |  Craft Fair (8/9, Sat)",0.99
-"14 St-Union Sq  |  Gallery Opening (6/7, Sat)",1.27
-"23 St  |  Wine Tasting (6/25, Wed)",0.13
-"28 St  |  Art Exhibition Opening (6/21, Sat)",0.49
-"28 St  |  Charity Run (6/27, Fri)",0.49
-"34 St-Penn Station  |  🌾 Farmers Market (8/8, Fri)",0.21
-"34 St-Penn Station  |  Charity Run (7/27, Sun)",0.31
-"34 St-Penn Station  |  Summer Concert Series (8/13, Wed)",0.57
-"42 St-Port Authority  |  Baseball Game (6/17, Tue)",0.61
-"42 St-Port Authority  |  Shakespeare in the Park (7/23, Wed)",0.25
-"42 St-Port Authority  |  Summer Concert Series (6/4, Wed)",0.56
-"50 St  |  🍿 Outdoor Movie Screening (8/5, Tue)",0.29
-"50 St  |  Gallery Opening (7/1, Tue)",0.62
-"50 St  |  Pride Parade (7/30, Wed)",0.33
-"50 St  |  Shakespeare in the Park (6/23, Mon)",0.57
-"50 St  |  Summer Concert Series (8/11, Mon)",0.62
-"59 St-Columbus Circle  |  Baseball Game (7/10, Thu)",0.79
-"59 St-Columbus Circle  |  Outdoor Yoga (7/11, Fri)",0.19
-"59 St-Columbus Circle  |  Wine Tasting (7/24, Thu)",0.35
-"66 St-Lincoln Center  |  Baseball Game (7/21, Mon)",0.27
-"66 St-Lincoln Center  |  Book Fair (8/6, Wed)",0.55
-"66 St-Lincoln Center  |  Jazz Festival (6/23, Mon)",0.82
-"66 St-Lincoln Center  |  Summer Concert Series (6/13, Fri)",0.88
-"66 St-Lincoln Center  |  Wine Tasting (6/20, Fri)",0.58
-"72 St  |  Baseball Game (7/8, Tue)",0.89
-"72 St  |  Cultural Festival (6/21, Sat)",0.36
-"72 St  |  Food Festival (7/23, Wed)",0.44
-"72 St  |  Gallery Opening (6/18, Wed)",0.62
-"72 St  |  Outdoor Yoga (7/25, Fri)",0.11
-"72 St  |  Pride Parade (6/14, Sat)",0.36
-"72 St  |  Summer Concert Series (6/10, Tue)",0.32
-"86 St  |  🎆 Fireworks Display (6/24, Tue)",0.78
-"96 St  |  🎆 Fireworks Display (6/27, Fri)",0.43
-"96 St  |  Book Fair (7/9, Wed)",0.65
-"Astor Pl  |  Art Exhibition Opening (7/10, Thu)",0.09
-"Bowling Green  |  Book Fair (8/12, Tue)",0.70
-"Bowling Green  |  Museum Night (6/10, Tue)",0.55
-"Chambers St  |  Gallery Opening (7/17, Thu)",0.59
-"Chambers St  |  Pride Parade (7/16, Wed)",0.52
-"Christopher St  |  Block Party (6/22, Sun)",0.82
-"Christopher St  |  Book Fair (6/6, Fri)",0.87
-"Fulton St  |  🍺 Beer Garden Opening (6/11, Wed)",0.68
-"Fulton St  |  Craft Fair (7/20, Sun)",0.31
-"Grand Central-42 St  |  Craft Fair (8/9, Sat)",0.34
-"Grand Central-42 St  |  Cultural Festival (7/14, Mon)",0.79
-"Grand Central-42 St  |  Food Festival (7/13, Sun)",0.34
-"Grand Central-42 St  |  Street Fair (6/8, Sun)",0.34
-"Herald Sq-34 St  |  Block Party (6/10, Tue)",0.23
-"Herald Sq-34 St  |  Comedy Show (6/19, Thu)",0.63
-"Houston St  |  Comedy Show (8/11, Mon)",0.45
-"Spring St  |  🍿 Outdoor Movie Screening (6/7, Sat)",0.56
-"Spring St  |  Art Exhibition Opening (7/1, Tue)",0.58
-"Wall St  |  🍿 Outdoor Movie Screening (7/14, Mon)",0.21
-"Wall St  |  Pride Parade (6/13, Fri)",0.34
-"West 4 St-Wash Sq  |  🎆 Fireworks Display (6/23, Mon)",0.80
+date,station,event,event_st,event_attd,avg_traffic,day_traffic,traffic_change
+6/17/2025,42 St-Port Authority,⚾ Baseball Game,42 St-Port Authority  |  ⚾ Baseball Game (6/17/2025),3377,12243,19747,0.61
+7/10/2025,59 St-Columbus Circle,⚾ Baseball Game,59 St-Columbus Circle  |  ⚾ Baseball Game (7/10/2025),9234,6934,12385,0.79
+7/21/2025,66 St-Lincoln Center,⚾ Baseball Game,66 St-Lincoln Center  |  ⚾ Baseball Game (7/21/2025),14230,13724,17479,0.27
+7/8/2025,72 St,⚾ Baseball Game,72 St  |  ⚾ Baseball Game (7/8/2025),4964,9979,18864,0.89
+6/21/2025,72 St,🌎 Cultural Festival,72 St  |  🌎 Cultural Festival (6/21/2025),1154,9979,13614,0.36
+7/14/2025,Grand Central-42 St,🌎 Cultural Festival,Grand Central-42 St  |  🌎 Cultural Festival (7/14/2025),5970,16387,29309,0.79
+7/5/2025,125 St,🌾 Farmers Market,125 St  |  🌾 Farmers Market (7/5/2025),8686,8014,15140,0.89
+8/8/2025,34 St-Penn Station,🌾 Farmers Market,34 St-Penn Station  |  🌾 Farmers Market (8/8/2025),5147,13822,16785,0.21
+7/23/2025,72 St,🍔 Food Festival,72 St  |  🍔 Food Festival (7/23/2025),4216,9979,14351,0.44
+7/13/2025,Grand Central-42 St,🍔 Food Festival,Grand Central-42 St  |  🍔 Food Festival (7/13/2025),8659,16387,21901,0.34
+6/25/2025,23 St,🍷 Wine Tasting,23 St  |  🍷 Wine Tasting (6/25/2025),6533,8296,9342,0.13
+7/24/2025,59 St-Columbus Circle,🍷 Wine Tasting,59 St-Columbus Circle  |  🍷 Wine Tasting (7/24/2025),3564,6934,9379,0.35
+6/20/2025,66 St-Lincoln Center,🍷 Wine Tasting,66 St-Lincoln Center  |  🍷 Wine Tasting (6/20/2025),2715,13724,21705,0.58
+6/15/2025,125 St,🍺 Beer Garden Opening,125 St  |  🍺 Beer Garden Opening (6/15/2025),13106,8014,9241,0.15
+6/11/2025,Fulton St,🍺 Beer Garden Opening,Fulton St  |  🍺 Beer Garden Opening (6/11/2025),1470,16263,27279,0.68
+7/23/2025,14 St-Union Sq,🎆 Fireworks Display,14 St-Union Sq  |  🎆 Fireworks Display (7/23/2025),9496,5165,7191,0.39
+6/24/2025,86 St,🎆 Fireworks Display,86 St  |  🎆 Fireworks Display (6/24/2025),6911,17037,30249,0.78
+6/27/2025,96 St,🎆 Fireworks Display,96 St  |  🎆 Fireworks Display (6/27/2025),3567,17019,24346,0.43
+6/23/2025,West 4 St-Wash Sq,🎆 Fireworks Display,West 4 St-Wash Sq  |  🎆 Fireworks Display (6/23/2025),1120,5590,10051,0.80
+6/8/2025,Grand Central-42 St,🎡 Street Fair,Grand Central-42 St  |  🎡 Street Fair (6/8/2025),11101,16387,21952,0.34
+8/13/2025,34 St-Penn Station,🎤 Summer Concert Series,34 St-Penn Station  |  🎤 Summer Concert Series (8/13/2025),10844,13822,21681,0.57
+6/4/2025,42 St-Port Authority,🎤 Summer Concert Series,42 St-Port Authority  |  🎤 Summer Concert Series (6/4/2025),8618,12243,19159,0.56
+8/11/2025,50 St,🎤 Summer Concert Series,50 St  |  🎤 Summer Concert Series (8/11/2025),7407,17963,29084,0.62
+6/13/2025,66 St-Lincoln Center,🎤 Summer Concert Series,66 St-Lincoln Center  |  🎤 Summer Concert Series (6/13/2025),3333,13724,25750,0.88
+6/10/2025,72 St,🎤 Summer Concert Series,72 St  |  🎤 Summer Concert Series (6/10/2025),8916,9979,13138,0.32
+7/31/2025,125 St,🎥 Outdoor Movie Screening,125 St  |  🎥 Outdoor Movie Screening (7/31/2025),3144,8014,10199,0.27
+8/5/2025,50 St,🎥 Outdoor Movie Screening,50 St  |  🎥 Outdoor Movie Screening (8/5/2025),8886,17963,23113,0.29
+6/7/2025,Spring St,🎥 Outdoor Movie Screening,Spring St  |  🎥 Outdoor Movie Screening (6/7/2025),6759,10936,17062,0.56
+7/14/2025,Wall St,🎥 Outdoor Movie Screening,Wall St  |  🎥 Outdoor Movie Screening (7/14/2025),4336,9143,11039,0.21
+7/23/2025,42 St-Port Authority,🎭 Shakespeare in the Park,42 St-Port Authority  |  🎭 Shakespeare in the Park (7/23/2025),640,12243,15357,0.25
+6/23/2025,50 St,🎭 Shakespeare in the Park,50 St  |  🎭 Shakespeare in the Park (6/23/2025),8253,17963,28231,0.57
+6/23/2025,66 St-Lincoln Center,🎷 Jazz Festival,66 St-Lincoln Center  |  🎷 Jazz Festival (6/23/2025),7137,13724,25038,0.82
+6/27/2025,28 St,🏃 Charity Run,28 St  |  🏃 Charity Run (6/27/2025),14128,12306,18381,0.49
+7/27/2025,34 St-Penn Station,🏃 Charity Run,34 St-Penn Station  |  🏃 Charity Run (7/27/2025),9350,13822,18174,0.31
+7/30/2025,50 St,🏳️‍🌈 Pride Parade,50 St  |  🏳️‍🌈 Pride Parade (7/30/2025),2197,17963,23869,0.33
+6/14/2025,72 St,🏳️‍🌈 Pride Parade,72 St  |  🏳️‍🌈 Pride Parade (6/14/2025),7375,9979,13575,0.36
+7/16/2025,Chambers St,🏳️‍🌈 Pride Parade,Chambers St  |  🏳️‍🌈 Pride Parade (7/16/2025),12407,16326,24769,0.52
+6/13/2025,Wall St,🏳️‍🌈 Pride Parade,Wall St  |  🏳️‍🌈 Pride Parade (6/13/2025),9639,9143,12208,0.34
+8/6/2025,66 St-Lincoln Center,📚 Book Fair,66 St-Lincoln Center  |  📚 Book Fair (8/6/2025),13908,13724,21214,0.55
+7/9/2025,96 St,📚 Book Fair,96 St  |  📚 Book Fair (7/9/2025),5854,17019,28009,0.65
+8/12/2025,Bowling Green,📚 Book Fair,Bowling Green  |  📚 Book Fair (8/12/2025),6661,6959,11839,0.70
+6/6/2025,Christopher St,📚 Book Fair,Christopher St  |  📚 Book Fair (6/6/2025),14323,13768,25797,0.87
+6/7/2025,14 St-Union Sq,🖼️ Gallery Opening,14 St-Union Sq  |  🖼️ Gallery Opening (6/7/2025),9472,5165,11703,1.27
+7/1/2025,50 St,🖼️ Gallery Opening,50 St  |  🖼️ Gallery Opening (7/1/2025),13396,17963,29144,0.62
+6/18/2025,72 St,🖼️ Gallery Opening,72 St  |  🖼️ Gallery Opening (6/18/2025),14726,9979,16176,0.62
+7/17/2025,Chambers St,🖼️ Gallery Opening,Chambers St  |  🖼️ Gallery Opening (7/17/2025),4385,16326,25934,0.59
+6/19/2025,Herald Sq-34 St,🤡 Comedy Show,Herald Sq-34 St  |  🤡 Comedy Show (6/19/2025),13754,13884,22599,0.63
+8/11/2025,Houston St,🤡 Comedy Show,Houston St  |  🤡 Comedy Show (8/11/2025),10317,17179,24974,0.45
+6/22/2025,Christopher St,🥳 Block Party,Christopher St  |  🥳 Block Party (6/22/2025),12113,13768,24993,0.82
+6/10/2025,Herald Sq-34 St,🥳 Block Party,Herald Sq-34 St  |  🥳 Block Party (6/10/2025),1172,13884,17080,0.23
+6/10/2025,Bowling Green,🦖 Museum Night,Bowling Green  |  🦖 Museum Night (6/10/2025),2730,6959,10807,0.55
+6/21/2025,28 St,🧑‍🎨 Art Exhibition Opening,28 St  |  🧑‍🎨 Art Exhibition Opening (6/21/2025),11785,12306,18293,0.49
+7/10/2025,Astor Pl,🧑‍🎨 Art Exhibition Opening,Astor Pl  |  🧑‍🎨 Art Exhibition Opening (7/10/2025),11515,7583,8260,0.09
+7/1/2025,Spring St,🧑‍🎨 Art Exhibition Opening,Spring St  |  🧑‍🎨 Art Exhibition Opening (7/1/2025),5455,10936,17286,0.58
+7/11/2025,59 St-Columbus Circle,🧘 Outdoor Yoga,59 St-Columbus Circle  |  🧘 Outdoor Yoga (7/11/2025),10010,6934,8263,0.19
+7/25/2025,72 St,🧘 Outdoor Yoga,72 St  |  🧘 Outdoor Yoga (7/25/2025),13371,9979,11076,0.11
+8/9/2025,14 St-Union Sq,🪡 Craft Fair,14 St-Union Sq  |  🪡 Craft Fair (8/9/2025),5424,5165,10266,0.99
+7/20/2025,Fulton St,🪡 Craft Fair,Fulton St  |  🪡 Craft Fair (7/20/2025),1282,16263,21325,0.31
+8/9/2025,Grand Central-42 St,🪡 Craft Fair,Grand Central-42 St  |  🪡 Craft Fair (8/9/2025),9685,16387,21984,0.34
