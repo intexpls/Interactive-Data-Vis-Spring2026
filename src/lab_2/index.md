@@ -633,7 +633,7 @@ Here are the stations that may require additional attention based on this:
 Finally, let's move to the future - what stations may have more traffic in the summer of 2026.
 
 
-## Something about events
+## Planning with the 2026 events in mind
 
 As we established, events increase traffifc at nearby stations. We, however, cannot fully predict by how much. Despite this we need to have some sense of what's coming. To get this I assumed that at least 25% of event attendance will then use the subway.
 
