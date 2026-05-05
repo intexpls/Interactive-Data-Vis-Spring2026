@@ -49,6 +49,10 @@ export default {
           name: "Intro to d3.js",
           path: "/lessons/11_intro_to_d3",
         },
+        {
+          name: "Different Charts With d3.js",
+          path: "/lessons/12_charts_in_d3",
+        },
       ],
     },
     {
