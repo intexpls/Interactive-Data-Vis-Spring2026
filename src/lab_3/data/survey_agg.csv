@@ -1,6 +1,6 @@
-Policy,Voted_for_us,Voted_for_opp
-affordable_housing,3.88,3.61
-public_transit,4.00,3.61
-childcare_support,3.85,2.94
-small_business_tax,3.31,3.00
-police_reform,1.50,1.42
+Policy,Voted_for_us,Voted_for_opp,Didnt_vote,Min,Max
+Affordable Housing,3.88,3.61,4.09,3.61,4.09
+Public Transit,4.00,3.61,4.09,3.61,4.09
+Childcare Support,3.85,2.94,3.93,2.94,3.93
+Small Business Tax,3.31,3.00,3.33,3.00,3.33
+Police Reform,1.50,1.42,1.40,1.40,1.50

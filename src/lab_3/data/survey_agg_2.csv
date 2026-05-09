@@ -1,0 +1,16 @@
+policy,avg_score,position
+Affordable Housing,3.88,Voted_for_us
+Public Transit,4.00,Voted_for_us
+Childcare Support,3.85,Voted_for_us
+Small Business Tax,3.31,Voted_for_us
+Police Reform,1.50,Voted_for_us
+Affordable Housing,3.61,Voted_for_opp
+Public Transit,3.61,Voted_for_opp
+Childcare Support,2.94,Voted_for_opp
+Small Business Tax,3.00,Voted_for_opp
+Police Reform,1.42,Voted_for_opp
+Affordable Housing,4.09,Didnt_vote
+Public Transit,4.09,Didnt_vote
+Childcare Support,3.93,Didnt_vote
+Small Business Tax,3.33,Didnt_vote
+Police Reform,1.40,Didnt_vote

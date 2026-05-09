@@ -1,0 +1,501 @@
+respondent_id,policy,score,voted,voted for
+1,Affordable Housing,4,No,
+1,Public Transit,4,No,
+1,Childcare Support,4,No,
+1,Small Business Tax,4,No,
+1,Police Reform,1,No,
+2,Affordable Housing,4,No,
+2,Public Transit,5,No,
+2,Childcare Support,5,No,
+2,Small Business Tax,4,No,
+2,Police Reform,1,No,
+3,Affordable Housing,4,No,
+3,Public Transit,5,No,
+3,Childcare Support,5,No,
+3,Small Business Tax,4,No,
+3,Police Reform,2,No,
+4,Affordable Housing,4,Yes,Opponent
+4,Public Transit,5,Yes,Opponent
+4,Childcare Support,5,Yes,Opponent
+4,Small Business Tax,3,Yes,Opponent
+4,Police Reform,2,Yes,Opponent
+5,Affordable Housing,5,Yes,Opponent
+5,Public Transit,4,Yes,Opponent
+5,Childcare Support,5,Yes,Opponent
+5,Small Business Tax,3,Yes,Opponent
+5,Police Reform,1,Yes,Opponent
+6,Affordable Housing,4,Yes,Candidate
+6,Public Transit,4,Yes,Candidate
+6,Childcare Support,5,Yes,Candidate
+6,Small Business Tax,4,Yes,Candidate
+6,Police Reform,1,Yes,Candidate
+7,Affordable Housing,4,Yes,Candidate
+7,Public Transit,5,Yes,Candidate
+7,Childcare Support,4,Yes,Candidate
+7,Small Business Tax,4,Yes,Candidate
+7,Police Reform,1,Yes,Candidate
+8,Affordable Housing,4,No,
+8,Public Transit,4,No,
+8,Childcare Support,5,No,
+8,Small Business Tax,3,No,
+8,Police Reform,1,No,
+9,Affordable Housing,4,Yes,Candidate
+9,Public Transit,4,Yes,Candidate
+9,Childcare Support,5,Yes,Candidate
+9,Small Business Tax,4,Yes,Candidate
+9,Police Reform,2,Yes,Candidate
+10,Affordable Housing,4,No,
+10,Public Transit,4,No,
+10,Childcare Support,4,No,
+10,Small Business Tax,3,No,
+10,Police Reform,1,No,
+11,Affordable Housing,5,No,
+11,Public Transit,4,No,
+11,Childcare Support,5,No,
+11,Small Business Tax,4,No,
+11,Police Reform,1,No,
+12,Affordable Housing,4,No,
+12,Public Transit,4,No,
+12,Childcare Support,5,No,
+12,Small Business Tax,4,No,
+12,Police Reform,1,No,
+13,Affordable Housing,5,No,
+13,Public Transit,5,No,
+13,Childcare Support,5,No,
+13,Small Business Tax,4,No,
+13,Police Reform,2,No,
+14,Affordable Housing,5,No,
+14,Public Transit,4,No,
+14,Childcare Support,4,No,
+14,Small Business Tax,3,No,
+14,Police Reform,2,No,
+15,Affordable Housing,4,Yes,Candidate
+15,Public Transit,4,Yes,Candidate
+15,Childcare Support,5,Yes,Candidate
+15,Small Business Tax,3,Yes,Candidate
+15,Police Reform,1,Yes,Candidate
+16,Affordable Housing,5,Yes,Candidate
+16,Public Transit,5,Yes,Candidate
+16,Childcare Support,5,Yes,Candidate
+16,Small Business Tax,3,Yes,Candidate
+16,Police Reform,2,Yes,Candidate
+17,Affordable Housing,5,No,
+17,Public Transit,5,No,
+17,Childcare Support,4,No,
+17,Small Business Tax,3,No,
+17,Police Reform,1,No,
+18,Affordable Housing,4,Yes,Candidate
+18,Public Transit,5,Yes,Candidate
+18,Childcare Support,5,Yes,Candidate
+18,Small Business Tax,4,Yes,Candidate
+18,Police Reform,2,Yes,Candidate
+19,Affordable Housing,5,Yes,Candidate
+19,Public Transit,4,Yes,Candidate
+19,Childcare Support,5,Yes,Candidate
+19,Small Business Tax,4,Yes,Candidate
+19,Police Reform,1,Yes,Candidate
+20,Affordable Housing,4,Yes,Candidate
+20,Public Transit,5,Yes,Candidate
+20,Childcare Support,4,Yes,Candidate
+20,Small Business Tax,3,Yes,Candidate
+20,Police Reform,1,Yes,Candidate
+21,Affordable Housing,4,No,
+21,Public Transit,4,No,
+21,Childcare Support,4,No,
+21,Small Business Tax,4,No,
+21,Police Reform,1,No,
+22,Affordable Housing,5,Yes,Candidate
+22,Public Transit,5,Yes,Candidate
+22,Childcare Support,5,Yes,Candidate
+22,Small Business Tax,3,Yes,Candidate
+22,Police Reform,2,Yes,Candidate
+23,Affordable Housing,4,Yes,Candidate
+23,Public Transit,4,Yes,Candidate
+23,Childcare Support,5,Yes,Candidate
+23,Small Business Tax,4,Yes,Candidate
+23,Police Reform,2,Yes,Candidate
+24,Affordable Housing,5,No,
+24,Public Transit,5,No,
+24,Childcare Support,5,No,
+24,Small Business Tax,4,No,
+24,Police Reform,1,No,
+25,Affordable Housing,4,Yes,Opponent
+25,Public Transit,4,Yes,Opponent
+25,Childcare Support,5,Yes,Opponent
+25,Small Business Tax,4,Yes,Opponent
+25,Police Reform,2,Yes,Opponent
+26,Affordable Housing,5,Yes,Opponent
+26,Public Transit,5,Yes,Opponent
+26,Childcare Support,5,Yes,Opponent
+26,Small Business Tax,3,Yes,Opponent
+26,Police Reform,1,Yes,Opponent
+27,Affordable Housing,4,Yes,Candidate
+27,Public Transit,5,Yes,Candidate
+27,Childcare Support,4,Yes,Candidate
+27,Small Business Tax,4,Yes,Candidate
+27,Police Reform,2,Yes,Candidate
+28,Affordable Housing,4,No,
+28,Public Transit,4,No,
+28,Childcare Support,4,No,
+28,Small Business Tax,4,No,
+28,Police Reform,2,No,
+29,Affordable Housing,4,No,
+29,Public Transit,4,No,
+29,Childcare Support,4,No,
+29,Small Business Tax,4,No,
+29,Police Reform,1,No,
+30,Affordable Housing,4,Yes,Opponent
+30,Public Transit,5,Yes,Opponent
+30,Childcare Support,4,Yes,Opponent
+30,Small Business Tax,3,Yes,Opponent
+30,Police Reform,2,Yes,Opponent
+31,Affordable Housing,5,Yes,Candidate
+31,Public Transit,4,Yes,Candidate
+31,Childcare Support,5,Yes,Candidate
+31,Small Business Tax,4,Yes,Candidate
+31,Police Reform,1,Yes,Candidate
+32,Affordable Housing,5,No,
+32,Public Transit,5,No,
+32,Childcare Support,5,No,
+32,Small Business Tax,4,No,
+32,Police Reform,1,No,
+33,Affordable Housing,5,Yes,Opponent
+33,Public Transit,5,Yes,Opponent
+33,Childcare Support,4,Yes,Opponent
+33,Small Business Tax,4,Yes,Opponent
+33,Police Reform,1,Yes,Opponent
+34,Affordable Housing,4,Yes,Candidate
+34,Public Transit,5,Yes,Candidate
+34,Childcare Support,4,Yes,Candidate
+34,Small Business Tax,3,Yes,Candidate
+34,Police Reform,1,Yes,Candidate
+35,Affordable Housing,4,No,
+35,Public Transit,4,No,
+35,Childcare Support,5,No,
+35,Small Business Tax,4,No,
+35,Police Reform,2,No,
+36,Affordable Housing,4,No,
+36,Public Transit,4,No,
+36,Childcare Support,5,No,
+36,Small Business Tax,4,No,
+36,Police Reform,2,No,
+37,Affordable Housing,4,No,
+37,Public Transit,5,No,
+37,Childcare Support,4,No,
+37,Small Business Tax,4,No,
+37,Police Reform,1,No,
+38,Affordable Housing,4,Yes,Opponent
+38,Public Transit,5,Yes,Opponent
+38,Childcare Support,4,Yes,Opponent
+38,Small Business Tax,3,Yes,Opponent
+38,Police Reform,1,Yes,Opponent
+39,Affordable Housing,5,Yes,Opponent
+39,Public Transit,4,Yes,Opponent
+39,Childcare Support,4,Yes,Opponent
+39,Small Business Tax,3,Yes,Opponent
+39,Police Reform,2,Yes,Opponent
+40,Affordable Housing,5,No,
+40,Public Transit,4,No,
+40,Childcare Support,5,No,
+40,Small Business Tax,3,No,
+40,Police Reform,1,No,
+41,Affordable Housing,5,Yes,Candidate
+41,Public Transit,5,Yes,Candidate
+41,Childcare Support,4,Yes,Candidate
+41,Small Business Tax,4,Yes,Candidate
+41,Police Reform,2,Yes,Candidate
+42,Affordable Housing,5,No,
+42,Public Transit,4,No,
+42,Childcare Support,5,No,
+42,Small Business Tax,3,No,
+42,Police Reform,2,No,
+43,Affordable Housing,5,Yes,Opponent
+43,Public Transit,5,Yes,Opponent
+43,Childcare Support,5,Yes,Opponent
+43,Small Business Tax,4,Yes,Opponent
+43,Police Reform,2,Yes,Opponent
+44,Affordable Housing,5,No,
+44,Public Transit,4,No,
+44,Childcare Support,4,No,
+44,Small Business Tax,3,No,
+44,Police Reform,2,No,
+45,Affordable Housing,4,No,
+45,Public Transit,5,No,
+45,Childcare Support,5,No,
+45,Small Business Tax,3,No,
+45,Police Reform,1,No,
+46,Affordable Housing,4,No,
+46,Public Transit,4,No,
+46,Childcare Support,4,No,
+46,Small Business Tax,4,No,
+46,Police Reform,1,No,
+47,Affordable Housing,4,Yes,Candidate
+47,Public Transit,4,Yes,Candidate
+47,Childcare Support,4,Yes,Candidate
+47,Small Business Tax,4,Yes,Candidate
+47,Police Reform,1,Yes,Candidate
+48,Affordable Housing,5,No,
+48,Public Transit,4,No,
+48,Childcare Support,4,No,
+48,Small Business Tax,3,No,
+48,Police Reform,1,No,
+49,Affordable Housing,5,No,
+49,Public Transit,5,No,
+49,Childcare Support,5,No,
+49,Small Business Tax,3,No,
+49,Police Reform,1,No,
+50,Affordable Housing,5,No,
+50,Public Transit,4,No,
+50,Childcare Support,4,No,
+50,Small Business Tax,4,No,
+50,Police Reform,1,No,
+51,Affordable Housing,5,Yes,Opponent
+51,Public Transit,5,Yes,Opponent
+51,Childcare Support,4,Yes,Opponent
+51,Small Business Tax,3,Yes,Opponent
+51,Police Reform,2,Yes,Opponent
+52,Affordable Housing,5,No,
+52,Public Transit,5,No,
+52,Childcare Support,4,No,
+52,Small Business Tax,4,No,
+52,Police Reform,1,No,
+53,Affordable Housing,5,No,
+53,Public Transit,4,No,
+53,Childcare Support,4,No,
+53,Small Business Tax,4,No,
+53,Police Reform,2,No,
+54,Affordable Housing,5,Yes,Opponent
+54,Public Transit,4,Yes,Opponent
+54,Childcare Support,4,Yes,Opponent
+54,Small Business Tax,4,Yes,Opponent
+54,Police Reform,1,Yes,Opponent
+55,Affordable Housing,4,No,
+55,Public Transit,5,No,
+55,Childcare Support,5,No,
+55,Small Business Tax,3,No,
+55,Police Reform,1,No,
+56,Affordable Housing,4,No,
+56,Public Transit,5,No,
+56,Childcare Support,4,No,
+56,Small Business Tax,3,No,
+56,Police Reform,2,No,
+57,Affordable Housing,5,Yes,Candidate
+57,Public Transit,4,Yes,Candidate
+57,Childcare Support,5,Yes,Candidate
+57,Small Business Tax,3,Yes,Candidate
+57,Police Reform,2,Yes,Candidate
+58,Affordable Housing,5,Yes,Candidate
+58,Public Transit,5,Yes,Candidate
+58,Childcare Support,5,Yes,Candidate
+58,Small Business Tax,4,Yes,Candidate
+58,Police Reform,2,Yes,Candidate
+59,Affordable Housing,5,No,
+59,Public Transit,4,No,
+59,Childcare Support,4,No,
+59,Small Business Tax,4,No,
+59,Police Reform,1,No,
+60,Affordable Housing,5,Yes,Opponent
+60,Public Transit,4,Yes,Opponent
+60,Childcare Support,4,Yes,Opponent
+60,Small Business Tax,4,Yes,Opponent
+60,Police Reform,1,Yes,Opponent
+61,Affordable Housing,5,Yes,Opponent
+61,Public Transit,4,Yes,Opponent
+61,Childcare Support,5,Yes,Opponent
+61,Small Business Tax,4,Yes,Opponent
+61,Police Reform,1,Yes,Opponent
+62,Affordable Housing,5,Yes,Opponent
+62,Public Transit,4,Yes,Opponent
+62,Childcare Support,5,Yes,Opponent
+62,Small Business Tax,4,Yes,Opponent
+62,Police Reform,1,Yes,Opponent
+63,Affordable Housing,4,No,
+63,Public Transit,5,No,
+63,Childcare Support,4,No,
+63,Small Business Tax,4,No,
+63,Police Reform,2,No,
+64,Affordable Housing,5,Yes,Opponent
+64,Public Transit,5,Yes,Opponent
+64,Childcare Support,4,Yes,Opponent
+64,Small Business Tax,4,Yes,Opponent
+64,Police Reform,1,Yes,Opponent
+65,Affordable Housing,4,No,
+65,Public Transit,5,No,
+65,Childcare Support,5,No,
+65,Small Business Tax,3,No,
+65,Police Reform,2,No,
+66,Affordable Housing,5,Yes,Opponent
+66,Public Transit,4,Yes,Opponent
+66,Childcare Support,4,Yes,Opponent
+66,Small Business Tax,3,Yes,Opponent
+66,Police Reform,2,Yes,Opponent
+67,Affordable Housing,5,Yes,Candidate
+67,Public Transit,4,Yes,Candidate
+67,Childcare Support,4,Yes,Candidate
+67,Small Business Tax,3,Yes,Candidate
+67,Police Reform,2,Yes,Candidate
+68,Affordable Housing,4,No,
+68,Public Transit,5,No,
+68,Childcare Support,5,No,
+68,Small Business Tax,3,No,
+68,Police Reform,1,No,
+69,Affordable Housing,4,No,
+69,Public Transit,4,No,
+69,Childcare Support,5,No,
+69,Small Business Tax,3,No,
+69,Police Reform,2,No,
+70,Affordable Housing,5,Yes,Candidate
+70,Public Transit,4,Yes,Candidate
+70,Childcare Support,5,Yes,Candidate
+70,Small Business Tax,3,Yes,Candidate
+70,Police Reform,2,Yes,Candidate
+71,Affordable Housing,3,Yes,Opponent
+71,Public Transit,3,Yes,Opponent
+71,Childcare Support,2,Yes,Opponent
+71,Small Business Tax,3,Yes,Opponent
+71,Police Reform,1,Yes,Opponent
+72,Affordable Housing,2,Yes,Opponent
+72,Public Transit,2,Yes,Opponent
+72,Childcare Support,2,Yes,Opponent
+72,Small Business Tax,3,Yes,Opponent
+72,Police Reform,2,Yes,Opponent
+73,Affordable Housing,3,Yes,Candidate
+73,Public Transit,2,Yes,Candidate
+73,Childcare Support,2,Yes,Candidate
+73,Small Business Tax,3,Yes,Candidate
+73,Police Reform,2,Yes,Candidate
+74,Affordable Housing,3,Yes,Opponent
+74,Public Transit,3,Yes,Opponent
+74,Childcare Support,1,Yes,Opponent
+74,Small Business Tax,3,Yes,Opponent
+74,Police Reform,2,Yes,Opponent
+75,Affordable Housing,3,Yes,Opponent
+75,Public Transit,3,Yes,Opponent
+75,Childcare Support,2,Yes,Opponent
+75,Small Business Tax,2,Yes,Opponent
+75,Police Reform,2,Yes,Opponent
+76,Affordable Housing,2,No,
+76,Public Transit,2,No,
+76,Childcare Support,1,No,
+76,Small Business Tax,2,No,
+76,Police Reform,2,No,
+77,Affordable Housing,2,No,
+77,Public Transit,3,No,
+77,Childcare Support,2,No,
+77,Small Business Tax,2,No,
+77,Police Reform,1,No,
+78,Affordable Housing,2,Yes,Opponent
+78,Public Transit,3,Yes,Opponent
+78,Childcare Support,1,Yes,Opponent
+78,Small Business Tax,3,Yes,Opponent
+78,Police Reform,1,Yes,Opponent
+79,Affordable Housing,3,No,
+79,Public Transit,3,No,
+79,Childcare Support,2,No,
+79,Small Business Tax,2,No,
+79,Police Reform,1,No,
+80,Affordable Housing,2,Yes,Opponent
+80,Public Transit,3,Yes,Opponent
+80,Childcare Support,2,Yes,Opponent
+80,Small Business Tax,2,Yes,Opponent
+80,Police Reform,1,Yes,Opponent
+81,Affordable Housing,2,Yes,Opponent
+81,Public Transit,2,Yes,Opponent
+81,Childcare Support,1,Yes,Opponent
+81,Small Business Tax,3,Yes,Opponent
+81,Police Reform,1,Yes,Opponent
+82,Affordable Housing,2,Yes,Candidate
+82,Public Transit,2,Yes,Candidate
+82,Childcare Support,2,Yes,Candidate
+82,Small Business Tax,2,Yes,Candidate
+82,Police Reform,1,Yes,Candidate
+83,Affordable Housing,2,Yes,Opponent
+83,Public Transit,3,Yes,Opponent
+83,Childcare Support,1,Yes,Opponent
+83,Small Business Tax,2,Yes,Opponent
+83,Police Reform,1,Yes,Opponent
+84,Affordable Housing,2,Yes,Candidate
+84,Public Transit,3,Yes,Candidate
+84,Childcare Support,2,Yes,Candidate
+84,Small Business Tax,3,Yes,Candidate
+84,Police Reform,1,Yes,Candidate
+85,Affordable Housing,3,No,
+85,Public Transit,3,No,
+85,Childcare Support,1,No,
+85,Small Business Tax,3,No,
+85,Police Reform,2,No,
+86,Affordable Housing,2,Yes,Opponent
+86,Public Transit,3,Yes,Opponent
+86,Childcare Support,2,Yes,Opponent
+86,Small Business Tax,2,Yes,Opponent
+86,Police Reform,2,Yes,Opponent
+87,Affordable Housing,2,Yes,Candidate
+87,Public Transit,3,Yes,Candidate
+87,Childcare Support,1,Yes,Candidate
+87,Small Business Tax,2,Yes,Candidate
+87,Police Reform,1,Yes,Candidate
+88,Affordable Housing,3,Yes,Candidate
+88,Public Transit,3,Yes,Candidate
+88,Childcare Support,2,Yes,Candidate
+88,Small Business Tax,3,Yes,Candidate
+88,Police Reform,2,Yes,Candidate
+89,Affordable Housing,3,Yes,Opponent
+89,Public Transit,3,Yes,Opponent
+89,Childcare Support,1,Yes,Opponent
+89,Small Business Tax,2,Yes,Opponent
+89,Police Reform,1,Yes,Opponent
+90,Affordable Housing,2,Yes,Candidate
+90,Public Transit,3,Yes,Candidate
+90,Childcare Support,2,Yes,Candidate
+90,Small Business Tax,3,Yes,Candidate
+90,Police Reform,1,Yes,Candidate
+91,Affordable Housing,2,Yes,Candidate
+91,Public Transit,3,Yes,Candidate
+91,Childcare Support,1,Yes,Candidate
+91,Small Business Tax,2,Yes,Candidate
+91,Police Reform,1,Yes,Candidate
+92,Affordable Housing,2,Yes,Opponent
+92,Public Transit,2,Yes,Opponent
+92,Childcare Support,1,Yes,Opponent
+92,Small Business Tax,2,Yes,Opponent
+92,Police Reform,1,Yes,Opponent
+93,Affordable Housing,3,No,
+93,Public Transit,3,No,
+93,Childcare Support,1,No,
+93,Small Business Tax,2,No,
+93,Police Reform,2,No,
+94,Affordable Housing,3,Yes,Opponent
+94,Public Transit,2,Yes,Opponent
+94,Childcare Support,1,Yes,Opponent
+94,Small Business Tax,3,Yes,Opponent
+94,Police Reform,2,Yes,Opponent
+95,Affordable Housing,2,Yes,Opponent
+95,Public Transit,2,Yes,Opponent
+95,Childcare Support,1,Yes,Opponent
+95,Small Business Tax,2,Yes,Opponent
+95,Police Reform,2,Yes,Opponent
+96,Affordable Housing,3,Yes,Opponent
+96,Public Transit,3,Yes,Opponent
+96,Childcare Support,1,Yes,Opponent
+96,Small Business Tax,2,Yes,Opponent
+96,Police Reform,1,Yes,Opponent
+97,Affordable Housing,3,No,
+97,Public Transit,2,No,
+97,Childcare Support,1,No,
+97,Small Business Tax,2,No,
+97,Police Reform,1,No,
+98,Affordable Housing,3,No,
+98,Public Transit,3,No,
+98,Childcare Support,2,No,
+98,Small Business Tax,2,No,
+98,Police Reform,1,No,
+99,Affordable Housing,2,Yes,Opponent
+99,Public Transit,3,Yes,Opponent
+99,Childcare Support,1,Yes,Opponent
+99,Small Business Tax,3,Yes,Opponent
+99,Police Reform,1,Yes,Opponent
+100,Affordable Housing,2,No,
+100,Public Transit,2,No,
+100,Childcare Support,1,No,
+100,Small Business Tax,3,No,
+100,Police Reform,2,No,
