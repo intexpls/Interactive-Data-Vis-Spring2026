@@ -1,0 +1,41 @@
+return_decade,break_group,value
+50s,Less than 1 year,78
+60s,Less than 1 year,347
+70s,Less than 1 year,103
+80s,Less than 1 year,88
+90s,Less than 1 year,70
+00s,Less than 1 year,432
+10s,Less than 1 year,1205
+20s,Less than 1 year,1200
+50s,1-5 years,0
+60s,1-5 years,30
+70s,1-5 years,22
+80s,1-5 years,16
+90s,1-5 years,5
+00s,1-5 years,0
+10s,1-5 years,23
+20s,1-5 years,45
+50s,5-10 years,0
+60s,5-10 years,1
+70s,5-10 years,5
+80s,5-10 years,5
+90s,5-10 years,2
+00s,5-10 years,1
+10s,5-10 years,2
+20s,5-10 years,12
+50s,10-30 years,0
+60s,10-30 years,0
+70s,10-30 years,3
+80s,10-30 years,5
+90s,10-30 years,5
+00s,10-30 years,0
+10s,10-30 years,18
+20s,10-30 years,16
+50s,30-60 years,0
+60s,30-60 years,0
+70s,30-60 years,0
+80s,30-60 years,0
+90s,30-60 years,0
+00s,30-60 years,0
+10s,30-60 years,13
+20s,30-60 years,14

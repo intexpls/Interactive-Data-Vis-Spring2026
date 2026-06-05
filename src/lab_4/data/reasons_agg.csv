@@ -1,0 +1,120 @@
+break_decade,Rule,Sub_rule,COUNTA of song_artist
+2. 60s,Rule change,4th of July,0
+3. 70s,Rule change,4th of July,0
+4. 80s,Rule change,4th of July,0
+5. 90s,Rule change,4th of July,0
+6. 00s,Rule change,4th of July,0
+7. 10s,Rule change,4th of July,0
+8. 20s,Rule change,4th of July,1
+2. 60s,Artist's death,Artist's death,0
+3. 70s,Artist's death,Artist's death,0
+4. 80s,Artist's death,Artist's death,0
+5. 90s,Artist's death,Artist's death,0
+6. 00s,Artist's death,Artist's death,0
+7. 10s,Artist's death,Artist's death,17
+8. 20s,Artist's death,Artist's death,5
+2. 60s,Other,Artist's life events,0
+3. 70s,Other,Artist's life events,0
+4. 80s,Other,Artist's life events,0
+5. 90s,Other,Artist's life events,0
+6. 00s,Other,Artist's life events,0
+7. 10s,Other,Artist's life events,0
+8. 20s,Other,Artist's life events,1
+2. 60s,Rule change,Chrismas,0
+3. 70s,Rule change,Chrismas,0
+4. 80s,Rule change,Chrismas,0
+5. 90s,Rule change,Chrismas,0
+6. 00s,Rule change,Chrismas,0
+7. 10s,Rule change,Chrismas,6
+8. 20s,Rule change,Chrismas,3
+2. 60s,Performance,Coachella,0
+3. 70s,Performance,Coachella,0
+4. 80s,Performance,Coachella,0
+5. 90s,Performance,Coachella,0
+6. 00s,Performance,Coachella,0
+7. 10s,Performance,Coachella,0
+8. 20s,Performance,Coachella,3
+2. 60s,Performance,Grammy,0
+3. 70s,Performance,Grammy,0
+4. 80s,Performance,Grammy,0
+5. 90s,Performance,Grammy,0
+6. 00s,Performance,Grammy,0
+7. 10s,Performance,Grammy,0
+8. 20s,Performance,Grammy,1
+2. 60s,Rule change,Halloween,0
+3. 70s,Rule change,Halloween,0
+4. 80s,Rule change,Halloween,0
+5. 90s,Rule change,Halloween,0
+6. 00s,Rule change,Halloween,0
+7. 10s,Rule change,Halloween,1
+8. 20s,Rule change,Halloween,2
+2. 60s,Internet virality,Instagram,0
+3. 70s,Internet virality,Instagram,0
+4. 80s,Internet virality,Instagram,0
+5. 90s,Internet virality,Instagram,0
+6. 00s,Internet virality,Instagram,0
+7. 10s,Internet virality,Instagram,1
+8. 20s,Internet virality,Instagram,0
+2. 60s,Movie/TV show feature,Movie,0
+3. 70s,Movie/TV show feature,Movie,1
+4. 80s,Movie/TV show feature,Movie,3
+5. 90s,Movie/TV show feature,Movie,3
+6. 00s,Movie/TV show feature,Movie,0
+7. 10s,Movie/TV show feature,Movie,1
+8. 20s,Movie/TV show feature,Movie,8
+2. 60s,Internet virality,Other,0
+3. 70s,Internet virality,Other,0
+4. 80s,Internet virality,Other,0
+5. 90s,Internet virality,Other,0
+6. 00s,Internet virality,Other,0
+7. 10s,Internet virality,Other,1
+8. 20s,Internet virality,Other,0
+2. 60s,Movie/TV show feature,Other,0
+3. 70s,Movie/TV show feature,Other,0
+4. 80s,Movie/TV show feature,Other,0
+5. 90s,Movie/TV show feature,Other,0
+6. 00s,Movie/TV show feature,Other,0
+7. 10s,Movie/TV show feature,Other,1
+8. 20s,Movie/TV show feature,Other,2
+2. 60s,Other,Other,0
+3. 70s,Other,Other,0
+4. 80s,Other,Other,1
+5. 90s,Other,Other,1
+6. 00s,Other,Other,0
+7. 10s,Other,Other,0
+8. 20s,Other,Other,0
+2. 60s,Re-release,Re-release,1
+3. 70s,Re-release,Re-release,7
+4. 80s,Re-release,Re-release,6
+5. 90s,Re-release,Re-release,3
+6. 00s,Re-release,Re-release,1
+7. 10s,Re-release,Re-release,0
+8. 20s,Re-release,Re-release,1
+2. 60s,Performance,Super Bowl,0
+3. 70s,Performance,Super Bowl,0
+4. 80s,Performance,Super Bowl,0
+5. 90s,Performance,Super Bowl,0
+6. 00s,Performance,Super Bowl,0
+7. 10s,Performance,Super Bowl,3
+8. 20s,Performance,Super Bowl,11
+2. 60s,Internet virality,TikTok,0
+3. 70s,Internet virality,TikTok,0
+4. 80s,Internet virality,TikTok,0
+5. 90s,Internet virality,TikTok,0
+6. 00s,Internet virality,TikTok,0
+7. 10s,Internet virality,TikTok,0
+8. 20s,Internet virality,TikTok,4
+2. 60s,Movie/TV show feature,TV show,0
+3. 70s,Movie/TV show feature,TV show,0
+4. 80s,Movie/TV show feature,TV show,0
+5. 90s,Movie/TV show feature,TV show,0
+6. 00s,Movie/TV show feature,TV show,0
+7. 10s,Movie/TV show feature,TV show,0
+8. 20s,Movie/TV show feature,TV show,2
+2. 60s,Internet virality,Youtube,0
+3. 70s,Internet virality,Youtube,0
+4. 80s,Internet virality,Youtube,0
+5. 90s,Internet virality,Youtube,0
+6. 00s,Internet virality,Youtube,0
+7. 10s,Internet virality,Youtube,2
+8. 20s,Internet virality,Youtube,0
