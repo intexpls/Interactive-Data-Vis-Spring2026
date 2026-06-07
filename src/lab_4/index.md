@@ -3,12 +3,15 @@ title: "Lab 4: Clearwater Crisis"
 toc: false
 ---
 
-
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Stack+Sans+Headline:wght@200..700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Stack+Sans+Headline:wght@200..700&display=swap');
 
-#observablehq-main {
-  margin-left: 30px;
+  main {
+    margin: 0 auto;
+  }
+
+  #observablehq-main {
+    margin-left: 30px;
   }
 
   svg {
@@ -17,75 +20,56 @@ toc: false
 
 
   p, h1, h2, h3, h4 {
-    line-height: 1.35;
-  }
-
-  summary {
-    margin: 15px 0 0 0;
-    color: rgb(112, 112, 112);
-    font-weight: 600;
-  }
-
-  details, summary {
-    font-family: "Stack Sans Headline", sans-serif;
+    max-width: 70%;
+    width: 700px;
   }
 
   p {
-    font-size: 13pt;
-    line-height: 1.35em;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
     color: rgb(41, 41, 41);
+    font-size: 13pt;
+    line-height: 1.3em;
     margin-top: 0px;
-    margin-bottom: 10px;
-    font-family: "Stack Sans Headline", sans-serif;
-    font-weight: 300;
+    margin-bottom: 8px;
   }
   
+  h1, h2, h3 {
+    font-family: "Cal Sans", sans-serif;
+  }
+
   h1 {
-        font-family: "Cal Sans", sans-serif;
-        font-size: 40pt;
+    font-size: 40pt;
+    margin-bottom: 8px;
 
   }
   h2 {
-    font-family: "Cal Sans", sans-serif;
-    font-weight: 700;
     font-size: 25pt;
+    font-weight: 700;
     line-height: 1.1;
-    margin-bottom: 12px;
-    margin-top: 30px;
-    width: 100%;
+    margin-bottom: 13px;
+    margin-top: 32px;
   }
 
   h3 {
-    font-size: 20pt;
-    font-family: "Stack Sans Headline", sans-serif;
+    font-size: 22pt;
+    font-weight: 300;
     margin-top: 0px;
     margin-bottom: 25px;
     line-height: 1em;
     color: rgb(111, 111, 111);
   }
 
-  .title-card {
-    text-align: center;
-    line-height: 1.05;
-    margin-bottom: 20px;
-    z-index: 1;
-  }
-
-  .main-title-card {
-    font-weight: 900;
-    font-size: 40pt;
-    margin-top: 40px;
-  }
-
-  .sub-title-card {
+  #data-summary {
+    margin: 15px 0 0 0;
+    color: rgb(112, 112, 112);
     font-weight: 600;
-    font-size: 22pt;
-    margin-top: 25px;
   }
 
-  .title-graph {
-    position: relative;
-    z-index: -2;
+  #data-details, #data-summary {
+    font-family: "DM Sans", sans-serif;
+    width: 60%;
+    max-width: 700px;
   }
 
   .chart-container {
@@ -112,23 +96,21 @@ toc: false
     font-size: 12pt;
     font-family: "Stack Sans Headline", sans-serif;
     color: #B6B6B6;
-    margin-top: 15px;
-    margin-bottom: -7px;
+    margin-top: 16px;
+    margin-bottom: -6px;
     font-weight: 300;
-  }
-
-  .chart-subtitle-two-lines {
-    margin-bottom: 0px;
-    line-height: 13px;
   }
 
   text {
     font-family: "Stack Sans Headline", sans-serif;
   }
 
-
   .custom-pack-tooltip {
     font-size: 20pt;
+  }
+
+  .observablehq--block {
+    padding: 0 0 7px 0;
   }
 
 </style>
@@ -142,37 +124,48 @@ const songs = await FileAttachment("data/songs_with_breaks.csv").csv({ typed: tr
 const breakDurationSplit = await FileAttachment("data/break_duration_split.csv").csv({ typed: true });
 const reasonsAgg = await FileAttachment("data/reasons_agg.csv").csv({ typed: true });
 const streamgraphData = await FileAttachment("data/filled_streamgraph.csv").csv({ typed: true });
+const chartHistory = await FileAttachment("data/chart_history.csv").csv({ typed: true });
+const chartDates = await FileAttachment("data/all_chart_dates.csv").csv({ typed: true });
+const mileyChart = await FileAttachment("data/miley_full.csv").csv({ typed: true });
 ```
 
 <h1>Why do they return?</h1><h3>How TV, death and NFL help some songs to return into public eye after decades out</h3>
 
-If you've been tapped in into the TV and movie world, you understand the power that a popular show yields over music they decide to feature. Kate Bush's "Running Up That Hill" broke back into charts after nearly 40 years after being featured in the 4th season of "Stranger Things", while "Unchained Melody" by The Righteous Brothers gained so many new listeners after being featured in the 1990 movie "Ghost" that the California musical duo decided to re-release the song half a century after its initial release in 1965.
+If you've been tapped in into the TV and movie world, you are familiar with the power a popular show yields over music they decide to feature. Kate Bush's "Running Up That Hill" broke exploded in popularity in 2022 nearly 40 years since release after being featured in the 4th season of "Stranger Things", while "Unchained Melody" by The Righteous Brothers gained enough new listeners after a feature in the 1990 movie "Ghost" for the Californian musical duo to re-release the song half a century after its initial release in 1965.
 
 Movies and TV shows, however, are not the only vehicles that propel previosly charted songs back into the spotlight after decades of being remembered only by biggest fans. For example, "Somebody's Watching Me" by Rockwell jumped back into the charts after 37 years out w/o being a score to something. But why then? Why this and other songs suddenly return into the public eye and at times climb high on charts after years and decades of being forgotten? Let's find out.
 
-To figure this out I decided to use, probably, the biggest music chart in the world - Billboard Hot 100. Break in this case would be any period when a song left the chart but then came back.
-<details>
-  <summary>Data & Methodology</summary>
+To figure this out I needed some source of truth that can at least to some extent reflect popularity of songs at least in the U.S. So I decided to use, probably, the biggest music chart in the world - Billboard Hot 100. Every week it compiles songs that get the most attention from public in a week prior to that to provide the music industry with the data about particular songs sucess and general buying trends. The methodology for including and ranking songs has changed over the years, currently it includes sales (physical and digital), online streaming, and radio airplay in the U.S. A song break in this case would be any period when a song left the chart but then came back and charted at least for one more week.
+<details id='data-details'>
+  <summary id='data-summary'>Data & Methodology</summary>
   <div style="padding: 5px 0 0px 15px">
-    This Kaggle dataset pulls daily updates for this and other key Billboard charts and has entries dating back to its inception on August 4, 1958.
-https://www.kaggle.com/datasets/ludmin/billboard 
+  I used this Kaggle dataset that pulls daily updates for this and other key Billboard charts. It has entries dating back to the Hot 100 inception on August 4, 1958. 
+
+  Source: <a href='kaggle.com/datasets/ludmin/billboard'>kaggle.com/datasets/ludmin/billboard</a>
+
+  More on <a href='https://www.billboard.com/billboard-charts-legend/'>what data Billboard used for Hot 100</a>
+
+  To calculate breaks, I extracted all songs that had gaps in their consequtive weeks runs. For example, if a song have been on Hot 100 for 14 weeks straight, then was not on for the week 15 but then returned for the week 16. This would be considered a break.
+  
+  Based on these consecutive gaps I calculated breaks.
+
   </div>
 </details
 
 
-<!-- SECTION: Songs count -->
+<!-- SECTION: Songs & breaks counts -->
 <h2>Gimme, gimme more</h2>
 
-First, let's define whether it's a prominent thing - how often songs return to charts. I extracted all songs that had any kind of break from charting, even for a week.
+First, let's see if songs returning to charts is a prominent thing at all. 
 
 <!-- CHART: All breaks - dot plot -->
 <p class='chart-subtitle'>Songs that charted on Billboard Hot 100 with at least one break from August 1958 to May 2026</p>
 
 ```js
 Plot.plot({
-  margin: 6,
-  width: 800,
-  height: 450,
+  margin: 5,
+  width: 700,
+  height: 400,
   x: {
     axis: null
     },
@@ -183,7 +176,7 @@ Plot.plot({
     Plot.dot(songs, {
         x: "col", 
         y: "row",
-        r: 4.5,
+        r: 4,
         strokeWidth: 0.4,
         strokeOpacity: 1,
         fill: '#ff9494',
@@ -192,32 +185,32 @@ Plot.plot({
     Plot.dot(songs, Plot.pointer({
       x: "col", 
       y: "row", 
-      stroke: "#0016bf", 
-      r: 7, 
+      stroke: "#3f3f3f", 
+      r: 8, 
       strokeWidth: 3
       }
       )),
     Plot.tip(songs, Plot.pointer({
       fontSize: 14,
-      title: (d) => "'" + d.Song + "' by " + d.Artist + " took a break from charting for " + d.first_chart.toLocaleDateString("en-US") + " to " + d.last_chart.toLocaleDateString("en-US"), 
+      title: (d) => "'" + d.song + "' by " + d.artist + " spent " + d.total_chart + " week(s) in total on Hot 100." + "\n\n" + "It entered the chart on " + d.first_chart.toLocaleDateString("en-US") + " and charted for the last time on " + d.last_chart.toLocaleDateString("en-US") + "\n\n" + "Its highest position was #" + d.max_position + ".",
       x: 'col',
       y: "row",
-      fill: "white",
+      fill: "white"
   })),
   ]
 })
 ```
 
-There are nearly 3000 songs that meet this general criteria - 2,837 to be exact. Even though this data covers data for almost sever decades, that's an impressive number signaling that the phenomena we're studying might be more prominent. That's, however, not quite what we need. I we map out breaks instead of songs, we see even more impressive picture.
+There are nearly 3000 songs that meet this criteria - 2,837 to be exact. Even though this data covers data for almost seven decades, that's an impressive number signaling that the phenomena is pretty prominent. That's, however, not quite what we need - we need to look at the breaks. Looking just at breaks we see even more impressive picture.
 
 <!-- CHART: All breaks - dot plot -->
 <p class='chart-subtitle'>Breaks in charting history of songs on Billboard Hot 100 from August 1958 to May 2026</p>
 
 ```js
 Plot.plot({
-  margin: 6,
-  width: 1100,
-  height: 450,
+  margin: 5,
+  width: 950,
+  height: 400,
   x: {
     axis: null
     },
@@ -228,7 +221,7 @@ Plot.plot({
     Plot.dot(allBreaks, {
         x: "col", 
         y: "row",
-        r: 4.5,
+        r: 4,
         strokeWidth: 0.4,
         strokeOpacity: 1,
         fill: 'blue',
@@ -237,7 +230,7 @@ Plot.plot({
     Plot.dot(allBreaks, Plot.pointer({
       x: "col", 
       y: "row", 
-      stroke: "#0016bf", 
+      stroke: "#3f3f3f", 
       r: 7, 
       strokeWidth: 3
       }
@@ -253,7 +246,7 @@ Plot.plot({
 })
 ```
 
-Now the number of incidents climbs closes to four thousands - 3,767. This means that some songs likely had multiple breaks.
+Now the number climbs closes to four thousands - 3,767. This means that some songs had multiple breaks. Let's look at how many songs had multiple breaks.
 
 <!-- CHART: Songs w/ multiple entries - dot plot w/ highlights -->
 <p class='chart-subtitle'>Multiple charting breaks belonging to same <span style='background-color: rgb(255, 152, 152); color: black;'>songs</span></p>
@@ -261,20 +254,20 @@ Now the number of incidents climbs closes to four thousands - 3,767. This means 
 ```js
 Plot.plot({
   margin: 5,
-  width: 1100,
-  height: 450,
+  width: 950,
+  height: 400,
   x: {axis: null},
   y: {axis: null},
   color: {
     type: "categorical",
     domain: ["No", "Yes"],
-    range: ["blue", "#ff9494"]
+    range: ["#6b78ff", "#ff9494"]
     },
   marks: [
     Plot.dot(allBreaks, {
       x: "col", 
       y: "row",
-      r: 4.5,
+      r: 4,
       strokeWidth: 0.4,
       strokeOpacity: 1,
       fill: 'multi_break',
@@ -283,7 +276,7 @@ Plot.plot({
     Plot.dot(allBreaks, Plot.pointer({
       x: "col", 
       y: "row", 
-      stroke: "#0016bf", 
+      stroke: "#3f3f3f", 
       r: 7, 
       strokeWidth: 3
       }
@@ -299,6 +292,77 @@ Plot.plot({
 })
 ```
 
+20% of songs (578 out 2288) returned to the chart more than once. Those returns, however, take a much higher share out of all returns - out of 3,767 breaks, nearly 40% (1,478) belong songs that had multiple returns. Looking at some examples of such songs provides some context - not all returns were born equally relevant for this analysis. For example, "Jaded" from the Miley Cysus' 2023 album "Endless Summer Vacation" had multiple short returns. It entered the chart on March 22, 2023 for a week but then returned for another week on May 31st, then for another week on June 14th, after which it stayed charting for a few weeks.
+
+<p class='chart-subtitle'>Chart history of the 2023 song "Jaded" by Miley Cyrus</p>
+
+```js
+Plot.plot({
+  width: 700,
+  height: 300,
+  marginLeft: 35,
+  marginBottom: 36,
+  x: {
+    grid: true,
+    label: null,
+    domain: [new Date("2023-03-15"), new Date("2023-09-16")]
+    },
+  y: {
+    domain: [100, 0],
+    grid: true,
+    label: null,
+    ticks: 5
+  },
+  marks: [
+    Plot.lineY(mileyChart, {
+      filter: (d) => d.Rank != null || d.Rank != undefined,
+      x: "Date", 
+      y: 'Rank', 
+      curve: 'step',
+      strokeWidth: 7,
+      stroke: 'grey',
+      opacity: 0.2
+      }),
+    Plot.lineY(mileyChart, {
+      x: "Date", 
+      y: 'Rank', 
+      curve: 'step',
+      strokeWidth: 7,
+      stroke: 'blue',
+      opacity: 0.5
+      }),
+    Plot.dot(mileyChart, {
+      x: "Date", 
+      y: 'Rank', 
+      r: 6,
+      fill: 'blue',
+      opacity: 0.8,
+      stroke: 'black',
+      tip: true,
+      title: d => "On " + d.Date.toLocaleDateString("en-US") + " '" + d.Song + "' ranked #" + d.Rank + " on Hot 100"
+      }),
+    Plot.tip(
+      [`On May 16th Miley released a music video for 'Jaded' with is what, likely, brought it back to the chart, taking into account that it has a baked-in two-ish weeks lag.`], 
+      {x: new Date("2023-05-31"),
+      y: 80,
+      lineWidth: 15,
+      anchor: "bottom"
+      }),
+    Plot.axisX({
+      fontSize: '11pt',
+      fontWeight: 900,
+      color: 'black'
+    }),
+    Plot.axisY({
+      fontSize: '10.5pt',
+      fontWeight: 300,
+      color: '#b0b0b0'
+    })
+  ]
+})
+```
+
+
 Quick look at specific songs suggests two things. First, songs returning into charts is not a new phenomena - there are songs from the 70s and 2026. Second, breaks duration varies significantly even for songs that had multiple returns - from 2 weeks to 30 years. We will look into the second finding deeper later but now let's check out the first one. 
 
 <!-- CHART: Songs w/ breaks by decade - dot column chart -->
@@ -307,9 +371,10 @@ Quick look at specific songs suggests two things. First, songs returning into ch
 
 ```js
 Plot.plot({
-  width: 750,
+  width: 720,
+  height: 375,
   marginLeft: 50,
-  marginTop: 30,
+  marginTop: 22,
   x: {
     domain: ['50s', '60s', '70s', '80s', '90s', '00s', '10s', '20s'],
     label: null
@@ -340,7 +405,18 @@ Plot.plot({
           fill: '#808080'
         }
       )
-    )
+    ),
+    Plot.axisX({
+      fontSize: '11pt',
+      fontWeight: 900,
+      color: 'black'
+    }),
+    Plot.axisY({
+      ticks: 6,
+      fontSize: '10.5pt',
+      fontWeight: 300,
+      color: '#b0b0b0'
+    })
   ]
 })
 ```
@@ -360,7 +436,7 @@ Now let's get back to the second finding - break durations varied highly. For th
 
 ```js
 Plot.plot({
-  width: 700,
+  width: 730,
   height: 230,
   marginTop: 0,
   marginLeft: 120,
@@ -396,7 +472,7 @@ Most breaks were shorter than a year. To the point that we cannot even see other
 
 ```js
 Plot.plot({
-  width: 685,
+  width: 715,
   height: 184,
   marginTop: 0,
   marginLeft: 95,
@@ -430,9 +506,9 @@ Now we are talking. Most breaks were still shorter than 5 years, which is would 
 
 ```js
 Plot.plot({
-  width: 800,
+  width: 720,
   height: 400,
-  marginLeft: 50,
+  marginLeft: 45,
   insetLeft: -10,
   insetRight: -10,
   x: {
@@ -483,11 +559,13 @@ Plot.plot({
 
 As we can see, throughout the decades, there were always old songs released 10-30 years ago that jumped back into the charts. However, since the new millenium with acceleration of everything, as we can see even on this chart, there were not songs that returned from 30+ years long breaks. But what songs are why did they return? Now it's finally time to answer these questions.
 
-<div id='reasons'>
-</div>
 
+<!--- SECTION: Reasons --->
 
 <h2>Death, Super Bowl and ever-changing rules</h2>
+
+<div id='reasons'>
+</div>
 
 In the lieu of the main question - why do songs return after long breaks - and my sanity, I focused only on songs that were not charted for at least 5 years. There were 103 songs. For each, based on my research and a lot of inference, I marked the best guess for a reason and sub-reason behind their return. I created two categories to capture more nuance. 
 
